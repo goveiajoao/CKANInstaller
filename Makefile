@@ -1,7 +1,7 @@
 all: ckan icon 
 
 ckan:
-	gh release download -p "ckan.exe" -R KSP-CKAN/CKAN -D ./build/ --clobber
+	gh release download -p "ckan.exe" -R KSP-CKAN/CKAN --clobber
 
 icon:
 	sudo mkdir -p /usr/share/icons/ckan
@@ -9,7 +9,7 @@ icon:
 
 install: all
 	sudo mkdir -p /usr/local/share/ckan
-	sudo cp -f ./build/ckan.exe /usr/local/share/ckan
+	sudo mv -f ckan.exe /usr/local/share/ckan
 	sudo cp -f ./build/ckan /usr/local/bin
 	sudo cp -f ./build/ckan.desktop /usr/share/applications
 	sudo chmod 755 /usr/local/bin/ckan
