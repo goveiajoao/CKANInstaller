@@ -12,7 +12,7 @@ It Automatically:
 - make
 - sudo
 - git
-- gh (github cli)
+- gh (github cli) OR installs the ckan.exe manually and put it in the project's root
 
 # Installing
 ```
