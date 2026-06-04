@@ -1,8 +1,8 @@
 all: ckan icon 
 
 ckan:
-	if [ ! -e ckan.exe ]; then
-		gh release download -p "ckan.exe" -R KSP-CKAN/CKAN --clobber
+	if [ ! -e ckan.exe ]; then \
+		gh release download -p "ckan.exe" -R KSP-CKAN/CKAN; \
 	fi
 
 icon:
