@@ -1,2 +1,2 @@
 install:
-	gh release download -p "ckan.exe" -R KSP-CKAN/CKAN -D ./src
+	gh release download -p "ckan.exe" -R KSP-CKAN/CKAN -D ./build/
