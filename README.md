@@ -16,7 +16,7 @@ It Automatically:
 
 # Installing
 ```
-$ git clone https://github.com/goveiajoao/CKANInstaller ~/.local/share
+$ git clone https://github.com/goveiajoao/CKANInstaller ~/.local/share/CKANInstaller
 $ cd ~/.local/share/CKANInstaller
 $ make install
 ```
