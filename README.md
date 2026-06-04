@@ -8,6 +8,7 @@ It Automatically:
 - Create ckan icon in the system icons
 
 # Dependencies
+- mono
 - make
 - sudo
 - git
