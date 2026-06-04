@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=CKAN
+Comment=The Comprehensive Kerbal Archive Network
+Icon=/usr/share/icons/ckan/ckan-256.png
+Exec=/usr/local/bin/ckan
