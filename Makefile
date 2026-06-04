@@ -1,7 +1,9 @@
 all: ckan icon 
 
 ckan:
-	gh release download -p "ckan.exe" -R KSP-CKAN/CKAN --clobber
+	if [ ! -e ckan.exe ]; then
+		gh release download -p "ckan.exe" -R KSP-CKAN/CKAN --clobber
+	fi
 
 icon:
 	sudo mkdir -p /usr/share/icons/ckan
